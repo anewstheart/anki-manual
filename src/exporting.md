@@ -8,10 +8,12 @@ packaged Anki deck. To export, click the File menu and choose 'Export'.
 ## Text Files
 
 If you choose "Notes in Plain Text", Anki will write the contents of the
-notes into a text file. Each field is separated by a tab. If you edit
-the resulting file and don't modify the first field, you can later
-import that file back into Anki and Anki will update your notes based on
-your edits, provided you import back into the same note type.
+notes into a text file. Each field is separated by a tab. The field is 
+delimited with double quotes if it contains an escaped double quote or 
+a single quote. If you edit the resulting file and don't modify the first
+field, you can later import that file back into Anki and Anki will update
+your notes based on your edits, provided you import back into the same 
+note type.
 
 If you find yourself needing to edit the first field as well, you'll
 need to change the format of your note type so that the first field is
